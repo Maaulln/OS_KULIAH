@@ -19,14 +19,14 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Buka aplikasi UTM.  
    - Setelah UTM terbuka, pilih menu **UTM Gallery** untuk mendownload OS yang akan digunakan.  
 
-4. **Pilih OS Debian 12 **  
+4. **Pilih OS Debian 12**  
    - Di dalam UTM Gallery, cari dan pilih OS **Debian 12 **.  
    - Klik opsi **Open in UTM** untuk memulai proses pengunduhan image OS Debian 12.  
 
 5. **Tunggu Proses Pengunduhan**  
    - Tunggu hingga proses pengunduhan image Debian 12 selesai.  
 
-6. **Mulai Instalasi Debian 12 **  
+6. **Mulai Instalasi Debian 12**  
    - Setelah pengunduhan selesai, klik tombol **Play** untuk memulai virtual machine Debian 12 .  
    - Konfigurasi OS dengan konfigurasi sebagai berikut.
      - CPU: 2
@@ -62,13 +62,13 @@ Secara keseluruhan, percobaan ini menunjukkan bahwa UTM adalah alat yang efektif
 | Aspek                | Debian 11 (Bullseye)                          | Debian 12 (Bookworm)                          |
 |----------------------|-----------------------------------------------|-----------------------------------------------|
 | **Versi Kernel**     | Kernel Linux 5.10                             | Kernel Linux 6.1                             |
-| **Kebutuhan Sistem** | - RAM minimal: 512 MB                        | - RAM minimal: 1 GB                          |
-|                      | - Ruang disk: 10 GB (minimal), 20 GB (disarankan) | - Ruang disk: 10 GB (minimal), 20 GB (disarankan) |
+| **Kebutuhan Sistem** | RAM minimal: 512 MB                        | RAM minimal: 1 GB                          |
+|                      | Ruang disk: 10 GB (minimal), 20 GB (disarankan) | Ruang disk: 10 GB (minimal), 20 GB (disarankan) |
 | **Penerapan systemd**| systemd 247                                   | systemd 252                                   |
-| **Perbedaan Package**| - GNOME 3.38                                 | - GNOME 43                                   |
-|                      | - LibreOffice 7.0                            | - LibreOffice 7.4                            |
-|                      | - Python 3.9                                 | - Python 3.11                                |
-|                      | - GCC 10.2                                   | - GCC 12.2                                   |
+| **Perbedaan Package**| GNOME 3.38                                 | GNOME 43                                   |
+|                      | LibreOffice 7.0                            | LibreOffice 7.4                            |
+|                      | Python 3.9                                 | Python 3.11                                |
+|                      | GCC 10.2                                   | GCC 12.2                                   |
 
 ## Kesimpulan
 Debian 12 (`Bookworm`) menawarkan beberapa peningkatan signifikan dibandingkan Debian 11 (`Bullseye`):
