@@ -1,11 +1,11 @@
-# Laporan Instalasi Debian 12 di UTM pada Mac
+# Laporan Instalasi Debian 12 (Rosetta) di UTM pada Mac
 
 **Tujuan:**  
 Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggunakan UTM (Unified Toolbox for Mac) pada perangkat Mac.
 
 ---
 
-## Langkah-langkah Instalasi
+## A. Langkah-langkah Instalasi
 
 1. **Unduh UTM**  
    - Akses situs resmi UTM di [https://mac.getutm.app/](https://mac.getutm.app/).  
@@ -26,11 +26,24 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 5. **Tunggu Proses Pengunduhan**  
    - Tunggu hingga proses pengunduhan image Debian 12 selesai.  
 
-6. **Mulai Instalasi Debian 12**  
-   - Setelah pengunduhan selesai, klik tombol **Play** untuk memulai virtual machine Debian 12.  
-   - Ikuti langkah-langkah konfigurasi yang muncul pada layar untuk menyelesaikan instalasi Debian 12.  
+6. **Mulai Instalasi Debian 12 Rosetta**  
+   - Setelah pengunduhan selesai, klik tombol **Play** untuk memulai virtual machine Debian 12 Rosetta.  
+   - Konfigurasi OS dengan konfigurasi sebagai berikut.
+     - CPU: 2
+     - RAM: 4
+     - HDD: 25GB ( '/' 20 GB, '/' storage 5GB, '/' swap 1,5GB )
+     - Hostname : PrakOS_NRP
 
-7. **Selesai**  
+7. **Konfigurasi OS**
+   - Pada saat instalasi, pilih **Install Debian GNU/Linux** dan ikuti langkah-langkah instalasi.
+   - Setelah masuk ke menu **Dekstop** buka **Terminal**.
+   - Pada terminal ketikkan perintah `sudo apt update` dan `sudo apt upgrade`.
+   - Setelah itu ketikkan perintah `sudo nano /etc/hostname`.
+   - Setelah masuk ke editor, ubah hostname sesuai dengan **PrakOS_NRP**.
+   - Setelah itu ketikkan perintah `sudo reboot`.
+   - Setelah instalasi selesai, Debian 12 Rosetta akan berjalan di UTM pada perangkat Mac.
+
+8. **Selesai**  
    - Setelah proses konfigurasi selesai, Debian 12 siap digunakan di UTM pada perangkat Mac.  
 
 ---
