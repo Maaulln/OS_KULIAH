@@ -82,38 +82,38 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 
 Berikut adalah beberapa perintah shell yang dapat digunakan untuk mencari daftar aplikasi yang terinstal pada sistem Debian 12:
 
-## 1. Menggunakan `lshw`
+## 1. Menggunakan lshw
 Perintah ini menampilkan informasi lengkap hardware.
 
 ```bash
-`sudo lshw`
+sudo lshw
 ```
 
-## 2. Menggunakan 'inxi -Fxz'
+## 2. Menggunakan inxi -Fxz
 Perintah ini menampilkan informasi suhu dan driver.
 
 ```bash
-`sudo inxi -Fxz`
+sudo inxi -Fxz
 ```
 
-## 3. Menggunakan 'dmidecode'
+## 3. Menggunakan dmidecode
 Perintah ini menampilkan informasi firmware dan komponen hardware dari sistem
 
 ```bash
-`sudo dmidecode`
+sudo dmidecode
 ```
 
-## 4. Menggunakan 'lsblk'
+## 4. Menggunakan lsblk
 Perintah ini menampilkan daftar penyimpanan
 
 ```bash
-`sudo lsblk`
+sudo lsblk
 ```
 
-## 5. Menggunakan 'lscpu'
+## 5. Menggunakan lscpu
 Perintah ini menampilkan informasi CPU
 
 ```bash
-`sudo lscpu`
+sudo lscpu
 ```
 
