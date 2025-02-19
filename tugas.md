@@ -66,6 +66,7 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 1. Buka terminal dan ketikkan perintah `sudo apt install cpu-x`.
 2. Setelah proses instalasi selesai, ketikkan perintah `cpu-x`.
 3. Setelah proses selesai, akan muncul informasi seperti berikut.
+
 | Komponen | Spesifikasi |
 |----------|-------------|
 | CPU      | Intel Core i5-10300H |
