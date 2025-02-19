@@ -31,7 +31,7 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Konfigurasi OS dengan konfigurasi sebagai berikut.
      - CPU: 2
      - RAM: 4
-     - HDD: 25GB ( '/' 20 GB, '/' storage 5GB, '/' swap 1,5GB )
+     - HDD: 25GB ( `/` 20 GB, `/` storage 5GB, `/` swap 1,5GB )
      - Hostname : PrakOS_NRP
 
 7. **Konfigurasi OS**
@@ -47,4 +47,16 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Setelah proses konfigurasi selesai, Debian 12 siap digunakan di UTM pada perangkat Mac.  
 
 ---
+
+# Perbedaan Debian 11 (bullseye) dan Debian 12 (bookworm)
+| Aspek                | Debian 11 (Bullseye)                          | Debian 12 (Bookworm)                          |
+|----------------------|-----------------------------------------------|-----------------------------------------------|
+| **Versi Kernel**     | Kernel Linux 5.10                             | Kernel Linux 6.1                             |
+| **Kebutuhan Sistem** | - RAM minimal: 512 MB                        | - RAM minimal: 1 GB                          |
+|                      | - Ruang disk: 10 GB (minimal), 20 GB (disarankan) | - Ruang disk: 10 GB (minimal), 20 GB (disarankan) |
+| **Penerapan systemd**| systemd 247                                   | systemd 252                                   |
+| **Perbedaan Package**| - GNOME 3.38                                 | - GNOME 43                                   |
+|                      | - LibreOffice 7.0                            | - LibreOffice 7.4                            |
+|                      | - Python 3.9                                 | - Python 3.11                                |
+|                      | - GCC 10.2                                   | - GCC 12.2                                   |
 
