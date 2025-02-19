@@ -102,6 +102,7 @@ Secara keseluruhan, Debian 12 lebih cocok untuk pengguna yang menginginkan fitur
 ## Kesimpulan
 
 Percobaan ini menunjukkan cara menggunakan aplikasi `CPU-X` untuk memeriksa spesifikasi perangkat keras komputer. Setelah menginstal dan menjalankan `CPU-X`, diperoleh informasi detail tentang komponen utama sistem, seperti prosesor `(Intel Core i5-10300H dengan kecepatan 2.50 GHz dan 2 core)`, RAM `(4GB)`, motherboard `(ASUS ROG Strix Z390-F Gaming)`, dan GPU `(NVIDIA GeForce GTX 1650)`. Hasil ini memudahkan pengguna untuk memahami konfigurasi perangkat keras yang digunakan.
+
 ---
 
 # Mencari Daftar Aplikasi Terinstal di Debian 12
