@@ -60,3 +60,59 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 |                      | - Python 3.9                                 | - Python 3.11                                |
 |                      | - GCC 10.2                                   | - GCC 12.2                                   |
 
+---
+
+# Cek Environment Menggunakan CPU-X
+1. Buka terminal dan ketikkan perintah `sudo apt install cpu-x`.
+2. Setelah proses instalasi selesai, ketikkan perintah `cpu-x`.
+3. Setelah proses selesai, akan muncul informasi seperti berikut.
+| Komponen | Spesifikasi |
+|----------|-------------|
+| CPU      | Intel Core i5-10300H |
+| CPU      | 2.50 GHz |
+| CPU      | 2 Core |
+| RAM      | 4GB |
+| Motherboard | ASUS ROG Strix Z390-F Gaming |
+| GPU      | NVIDIA GeForce GTX 1650 |
+
+---
+
+# Mencari Daftar Aplikasi Terinstal di Debian 12
+
+Berikut adalah beberapa perintah shell yang dapat digunakan untuk mencari daftar aplikasi yang terinstal pada sistem Debian 12:
+
+## 1. Menggunakan `lshw`
+Perintah ini menampilkan informasi lengkap hardware.
+
+```bash
+`sudo lshw`
+```
+
+## 2. Menggunakan 'inxi -Fxz'
+Perintah ini menampilkan informasi suhu dan driver.
+
+```bash
+`sudo inxi -Fxz`
+```
+
+## 3. Menggunakan 'dmidecode'
+Perintah ini menampilkan informasi firmware dan komponen hardware dari sistem
+
+```bash
+`sudo dmidecode`
+```
+
+## 4. Menggunakan 'lsblk'
+Perintah ini menampilkan daftar penyimpanan
+
+```bash
+`sudo lsblk`
+```
+
+## 5. Menggunakan 'lscpu'
+Perintah ini menampilkan informasi CPU
+
+```bash
+`sudo lscpu`
+```
+
