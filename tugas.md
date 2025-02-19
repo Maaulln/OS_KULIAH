@@ -1,11 +1,11 @@
-# Laporan Instalasi Debian 12 (Rosetta) di UTM pada Mac
+# Laporan Instalasi Debian 12 di UTM pada Mac
 
 **Tujuan:**  
 Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggunakan UTM (Unified Toolbox for Mac) pada perangkat Mac.
 
 ---
 
-## A. Langkah-langkah Instalasi
+## Langkah-langkah Instalasi
 
 1. **Unduh UTM**  
    - Akses situs resmi UTM di [https://mac.getutm.app/](https://mac.getutm.app/).  
@@ -19,15 +19,15 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Buka aplikasi UTM.  
    - Setelah UTM terbuka, pilih menu **UTM Gallery** untuk mendownload OS yang akan digunakan.  
 
-4. **Pilih OS Debian 12 Rosetta**  
-   - Di dalam UTM Gallery, cari dan pilih OS **Debian 12 Rosetta**.  
+4. **Pilih OS Debian 12 **  
+   - Di dalam UTM Gallery, cari dan pilih OS **Debian 12 **.  
    - Klik opsi **Open in UTM** untuk memulai proses pengunduhan image OS Debian 12.  
 
 5. **Tunggu Proses Pengunduhan**  
    - Tunggu hingga proses pengunduhan image Debian 12 selesai.  
 
-6. **Mulai Instalasi Debian 12 Rosetta**  
-   - Setelah pengunduhan selesai, klik tombol **Play** untuk memulai virtual machine Debian 12 Rosetta.  
+6. **Mulai Instalasi Debian 12 **  
+   - Setelah pengunduhan selesai, klik tombol **Play** untuk memulai virtual machine Debian 12 .  
    - Konfigurasi OS dengan konfigurasi sebagai berikut.
      - CPU: 2
      - RAM: 4
@@ -41,14 +41,24 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Setelah itu ketikkan perintah `sudo nano /etc/hostname`.
    - Setelah masuk ke editor, ubah hostname sesuai dengan **PrakOS_NRP**.
    - Setelah itu ketikkan perintah `sudo reboot`.
-   - Setelah instalasi selesai, Debian 12 Rosetta akan berjalan di UTM pada perangkat Mac.
+   - Setelah instalasi selesai, Debian 12  akan berjalan di UTM pada perangkat Mac.
 
 8. **Selesai**  
    - Setelah proses konfigurasi selesai, Debian 12 siap digunakan di UTM pada perangkat Mac.  
 
+## Kesimpulan
+1. **Kemudahan Penggunaan UTM:** UTM menyediakan antarmuka yang user-friendly dan memudahkan pengguna Mac untuk menjalankan sistem operasi virtual seperti Debian 12. Proses pengunduhan dan instalasi UTM sangatlah mudah dan cepat.
+
+
+2. **Konfigurasi Virtual Machine:** Proses konfigurasi virtual machine, seperti alokasi CPU, RAM, dan penyimpanan, dapat disesuaikan dengan kebutuhan pengguna. Dalam percobaan ini, konfigurasi yang digunakan adalah 2 CPU, 4 GB RAM, dan 25 GB penyimpanan.
+
+3. **Kinerja yang Stabil:** Setelah instalasi selesai, Debian 12  berjalan dengan stabil di UTM pada perangkat Mac, menunjukkan bahwa kombinasi ini dapat menjadi solusi yang efektif untuk menjalankan sistem operasi Linux di lingkungan macOS.
+
+Secara keseluruhan, percobaan ini menunjukkan bahwa UTM adalah alat yang efektif dan efisien untuk menjalankan Debian 12 pada perangkat Mac, memberikan fleksibilitas dan kemudahan bagi pengguna yang membutuhkan lingkungan Linux di sistem macOS.
+
 ---
 
-# Perbedaan Debian 11 (bullseye) dan Debian 12 (bookworm)
+# Perbedaan Debian 11 (`Bullseye`) dan Debian 12 (`Bookworm`)
 | Aspek                | Debian 11 (Bullseye)                          | Debian 12 (Bookworm)                          |
 |----------------------|-----------------------------------------------|-----------------------------------------------|
 | **Versi Kernel**     | Kernel Linux 5.10                             | Kernel Linux 6.1                             |
@@ -59,6 +69,19 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 |                      | - LibreOffice 7.0                            | - LibreOffice 7.4                            |
 |                      | - Python 3.9                                 | - Python 3.11                                |
 |                      | - GCC 10.2                                   | - GCC 12.2                                   |
+
+## Kesimpulan
+Debian 12 (`Bookworm`) menawarkan beberapa peningkatan signifikan dibandingkan Debian 11 (`Bullseye`):
+
+1. **Kernel Lebih Baru:** Debian 12 menggunakan Kernel Linux 6.1, lebih baru dari Kernel Linux 5.10 pada Debian 11, memberikan dukungan hardware dan keamanan yang lebih baik.
+
+2. **Kebutuhan Sistem Lebih Tinggi:** Debian 12 membutuhkan RAM minimal 1 GB, lebih tinggi dari 512 MB pada Debian 11, menunjukkan kesesuaian untuk perangkat modern.
+
+3. **Pembaruan Paket:** Debian 12 menawarkan versi terbaru dari berbagai paket seperti GNOME 43, LibreOffice 7.4, Python 3.11, dan GCC 12.2, memberikan fitur dan perbaikan terbaru.
+
+4. **Peningkatan systemd:** Debian 12 menggunakan systemd 252, lebih baru dari systemd 247 pada Debian 11, dengan berbagai perbaikan dalam manajemen sistem.
+
+Secara keseluruhan, Debian 12 lebih cocok untuk pengguna yang menginginkan fitur terbaru dan kinerja yang lebih baik, sementara Debian 11 tetap menjadi pilihan yang layak untuk perangkat dengan spesifikasi lebih rendah.
 
 ---
 
@@ -76,6 +99,10 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
 | Motherboard | ASUS ROG Strix Z390-F Gaming |
 | GPU      | NVIDIA GeForce GTX 1650 |
 
+## Kesimpulan
+**Kesimpulan:**
+
+Percobaan ini menunjukkan cara menggunakan aplikasi `CPU-X` untuk memeriksa spesifikasi perangkat keras komputer. Setelah menginstal dan menjalankan `CPU-X`, diperoleh informasi detail tentang komponen utama sistem, seperti prosesor `(Intel Core i5-10300H dengan kecepatan 2.50 GHz dan 2 core)`, RAM `(4GB)`, motherboard `(ASUS ROG Strix Z390-F Gaming)`, dan GPU `(NVIDIA GeForce GTX 1650)`. Hasil ini memudahkan pengguna untuk memahami konfigurasi perangkat keras yang digunakan.
 ---
 
 # Mencari Daftar Aplikasi Terinstal di Debian 12
@@ -117,3 +144,5 @@ Perintah ini menampilkan informasi CPU
 sudo lscpu
 ```
 
+## Kesimpulan
+Perintah-perintah ini sangat berguna untuk memantau dan menganalisis konfigurasi sistem, baik untuk keperluan *administrasi* maupun *troubleshooting*.
