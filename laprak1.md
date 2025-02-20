@@ -20,7 +20,7 @@ Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggun
    - Setelah UTM terbuka, pilih menu **UTM Gallery** untuk mendownload OS yang akan digunakan.  
 
 4. **Pilih OS Debian 12**  
-   - Di dalam UTM Gallery, cari dan pilih OS **Debian 12 **.  
+   - Di dalam UTM Gallery, cari dan pilih OS **Debian 12**.  
    - Klik opsi **Open in UTM** untuk memulai proses pengunduhan image OS Debian 12.  
 
 5. **Tunggu Proses Pengunduhan**  
