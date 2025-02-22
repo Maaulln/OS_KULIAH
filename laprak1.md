@@ -1,7 +1,10 @@
 # Laporan Instalasi Debian 12 di UTM pada Mac
 
-**Tujuan:**  
-Laporan ini bertujuan untuk mendokumentasikan proses instalasi Debian 12 menggunakan UTM (Unified Toolbox for Mac) pada perangkat Mac.
+**Nama :** Maulana Chandra Irawan
+
+**NRP :** 3124521038
+
+**Kelas :** IT B - LA
 
 ---
 
